@@ -2,6 +2,7 @@
 set -eu
 
 : ${CUPS_ADMIN_USERNAME:=admin}
+: ${CUPS_ADMIN_PASSWORD:=admin}
 : ${CUPS_LOG_LEVEL:=warn}
 
 if [[ -z $CUPS_ADMIN_PASSWORD ]]; then
